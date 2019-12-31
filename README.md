@@ -1,3 +1,4 @@
 ### CTR prediction system based on wide & Deep learning (combined with GBDT)
 #### Introduction
-This is a class project of advanced database system.
+Click-through rate (CTR) prediction is an essential task in in industrial applications, such online advertising. Recently deep learning based models have been proposed, which can strengthen the generalization ability of the model. Wide & Deep Learning\cite{C1} by replacing the transformation function with complex MLP network, which enhances the model capability greatly. However, it is hard for the Wide component to deal with high dimensions and chose the most important features in the wide component training.
+To solve this problem, we use Gradient Boosting Decision Trees Algorithms (GBDT), which result is used to chose the key features for the wide component training. Offline experiment results show that our approach significantly increased the capabilities of Wide \& Deep model in small scale dataset. Besides, it can save a lot time for the jointly training and keep the benefits of memorization and generalization.
